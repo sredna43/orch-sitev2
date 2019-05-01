@@ -1,0 +1,30 @@
+/* palette: (Goes from lightest to darkest for each scheme.)
+light:
+e8e7ef
+a0a0b5
+808099
+
+medium:
+d1cfde
+41406a
+000033
+
+dark:
+666666
+535258
+1a192a
+000014
+*/
+
+/*navbar style*/
+.navbar{ background:#41406a; }
+.nav-link:hover{ background: #41406a; color: #e8e7ef;}
+.navbar-collapse{ justify-content: flex-start;}
+
+/* header style*/
+.header{
+    background-image: url("../images/headerback.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
