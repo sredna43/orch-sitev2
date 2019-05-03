@@ -16,7 +16,7 @@
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/icon.png" width="30" height="30" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -25,10 +25,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Auditions</a>
+                  <a class="nav-link" href="auditions.html">Auditions</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Calendar</a>
@@ -37,17 +37,35 @@
                   <a class="nav-link" href="#">Member Info</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
               </ul>
             </div>  
-          </nav>
+        </nav>
 
-          <header class="header"></header>
+        <main role="main">
+            <img src="images/headerback2.jpg" class="rounded img-fluid" alt="header photo">
 
-          <div class="jumbotron text-center" style="margin-bottom:0">
-            <p>Contact us at <a href="mailto:interludeorchestra@gmail.com">interludeorchestra@gmail.com</a></p>
-          </div>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Welcome!</h1>
+                    <p>You have reached the homepage for the Interlude Orchestra, a youth symphony located in Geneva, IL. </p>
+                    <p><a class="btn btn-secondary btn-lg" href="about.html" role="button">Learn more &raquo;</a></p>
+                </div>
+            </div>
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h5>Contact: </h5>
+                    <div>Jack Reynertson, Conductor</div>
+                    <a href="mailto:interludeorchestra@gmail.com">interludeorchestra@gmail.com</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="container">
+            <p>&copy; Interlude Orchestra 2019</p>
+        </footer>
 
         <!--Javascript, just in case-->
         <script src='js/main.js'></script>
